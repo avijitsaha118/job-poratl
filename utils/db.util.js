@@ -3,10 +3,10 @@ const mongoose = require("mongoose");
 const colors = require("colors");
 
 /* custom colors setup */
-colors.setTheme({
-  success: "green",
-  error: "red",
-});
+// colors.setTheme({
+//   success: "green",
+//   error: "red",
+// });
 
 function dbConnection() {
   mongoose
