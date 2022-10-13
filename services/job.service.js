@@ -1,4 +1,3 @@
-/* external import */
 const JOB = require("../schemas/job.schema");
 
 exports.insertNewJob = async (data) => {
